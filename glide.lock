@@ -1,0 +1,25 @@
+hash: 982a0815bf1ecaf95f7c810a1240963244cc8f9dc3f680bdec1a5251a87a084c
+updated: 2019-09-28T18:57:02.461761945+05:30
+imports:
+- name: github.com/gorilla/mux
+  version: 00bdffe0f3c77e27d2cf6f5c70232a2d3e4d9c15
+- name: github.com/jinzhu/gorm
+  version: 81c17a7e2529c59efc4e74c5b32c1fb71fb12fa2
+  subpackages:
+  - dialects/postgres
+- name: github.com/jinzhu/inflection
+  version: f5c5f50e6090ae76a29240b61ae2a90dd810112e
+- name: github.com/joho/godotenv
+  version: 23d116af351c84513e1946b527c88823e476be13
+- name: github.com/lib/pq
+  version: 931b5ae4c24e6810c8c82ab4734904de3df1c3dc
+  subpackages:
+  - hstore
+  - oid
+  - scram
+- name: golang.org/x/crypto
+  version: a832865fa7ada6126f4c6124ac49f71be71bff2a
+  subpackages:
+  - bcrypt
+  - blowfish
+testImports: []
