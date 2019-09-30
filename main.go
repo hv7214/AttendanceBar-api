@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-
 	"github.com/gorilla/mux"
 )
 
@@ -39,7 +38,6 @@ func main() {
 	port := os.Getenv("PORT")
 	err := http.ListenAndServe(":"+port, router)
 	if err != nil {
-
 		fmt.Println(err)
 	}
 }
