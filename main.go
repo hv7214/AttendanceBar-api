@@ -38,7 +38,6 @@ func main() {
 	port := os.Getenv("PORT")
 	err := http.ListenAndServe(":"+port, router)
 	if err != nil {
-
 		fmt.Println(err)
 	}
 }
