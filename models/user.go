@@ -139,7 +139,7 @@ func CheckDistance(longUser float64, latUser float64, latAdmin float64, longAdmi
 
 	d := R * c
 
-	if d <= 10 {
+	if d <= 5 {
 		return true
 	}
 	return false
